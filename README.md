@@ -74,26 +74,6 @@ The project includes the following chart questions:
 7. Write observations based on the actual results.
 8. Summarize the findings and project limitations.
 
-## How to Run the Project
-1. Download or place `employees.csv`, `attendance.csv`, and `salary.csv` in your notebook's working folder.
-2. Open Jupyter Notebook or Google Colab.
-3. Install the required libraries if they are not already available:
-
-   ```bash
-   pip install pandas matplotlib seaborn
-   ```
-
-4. Import the libraries and load the CSV files:
-
-   ```python
-   import pandas as pd
-   import matplotlib.pyplot as plt
-   import seaborn as sns
-
-   employees = pd.read_csv("employees.csv")
-   attendance = pd.read_csv("attendance.csv")
-   salary = pd.read_csv("salary.csv")
-   ```
 
 5. Run the data cleaning, analysis, and chart code for each question.
 
@@ -118,6 +98,3 @@ This project demonstrates how Python can be used to analyze HR datasets and comm
 - Attendance charts count attendance records unless the code explicitly calculates unique employees.
 - Correlation indicates association, not cause and effect.
 - Potential outliers should be checked before deciding whether they are errors.
-
-## Author
-Created as a Python data analysis project for learning and portfolio practice.
